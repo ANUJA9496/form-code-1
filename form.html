@@ -1,0 +1,39 @@
+
+	<html>
+	<body>
+<form>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" maxlength="25" size="25" placeholder="please enter your name" required>
+  <input type="submit" value="Submit"><br><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="lname" name="lname"required value="test@email.com" autofocus default>
+  <input type="submit" name="submit"><br><br>
+   <label for="pw">Password:</label>
+  <input type="text" id="pw" name="pw" maxlength="6" size="6" required>
+  <input type="submit" name="submit"><br><br>
+<form action="/action_page.php">
+  <label for="field">Choose a field:</label>
+  <select id="field" name="field" required>
+    <option value="student">student</option>
+    <option value="employee">employee</option>
+    <option value="freelancer" disabled>freelancer</option><br>
+    <input type="submit" name="submit">
+  </select><br><br>
+    <label> Event date: </label>     
+    <input type="date" name="Startdate" required>
+    <input type="submit" name="submit"><br><br>
+      <title>Radio Box Control</title>
+      <label>Tickets</label><br>
+         <input type = "radio" name = "subject" value = "1 tickets"> 1 tickets
+         <input type = "radio" name = "subject" value = "2 tickets" disabled> 2 tickets
+         <input type=  "radio" name=  "subject" value=  "3 tickets" required> 3 tickets
+         <input type="submit" name="submit"><br><br>
+         <label>payment</label><br>
+         <input type="checkbox" name="online payment" required>online payment
+         <input type="submit" name="submit"><br><br>
+         <label>Notes</label><br>
+         <textarea rows = "5" cols = "50" name = "description" placeholder="enter notes"></textarea>
+          <input type = "submit" value = "submit" />
+       
+   </body>
+   </html>
